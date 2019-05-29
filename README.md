@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dasxran/seleniumMachineLearning">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="280" height="80">
   </a>
 </p>
 
@@ -37,7 +37,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/dasxran/seleniumMachineLearning)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/dasxran/seleniumMachineLearning) -->
+<br />
+<p align="center">
+  <a href="https://github.com/dasxran/seleniumMachineLearning">
+    <img src="screenshot.PNG" width="800" height="440">
+  </a>
+</p>
+<br />
 
 Train a Tensorflow model [based on Inception V3](https://cloud.google.com/tpu/docs/tutorials/inception) with custom set of images and apply the model to identify objects in a webpage with the help of selenium.
 
