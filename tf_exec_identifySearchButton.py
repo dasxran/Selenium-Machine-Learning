@@ -8,6 +8,8 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
 from shutil import copy
 import docker
+import win32ui
+import win32con
 
 ROOT_DIR: str = path.abspath(curdir)
 
@@ -73,6 +75,10 @@ def scrapeImages(weblink,lookfor):
 
         seq = [x['probability'] for x in result]
         maxPct = (max(seq))
+
+        if win32ui.MessageBox("Element found with max " + str(round(maxPct * 100, 2)) + "% accuracy.",
+                              "Identify Webpage Element", win32con.MB_OK) == win32con.IDOK:
+            sleep(2)
 
         for item in result:
             if item.get('probability') == maxPct:

@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5d8a24-3820-48f5-8ebc-6f7817fef697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unittest/scrapeImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/runDocker.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/unittest/testany.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageScraping_SearchButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_exec_identifySearchButton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/fullscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/imageScrapingData/fullscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image1.png" beforeDir="false" afterPath="$PROJECT_DIR$/imageScrapingData/image1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image2.png" beforeDir="false" afterPath="$PROJECT_DIR$/imageScrapingData/image2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScrapingData/image7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runDocker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tfImageClassifier/scripts/return_pct.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfImageClassifier/scripts/return_pct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_exec_identifySearchButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_exec_identifySearchButton.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +17,7 @@
     <session id="1285497809">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.9" value="1" />
@@ -50,13 +37,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="py" value="922" />
+          <entry key="py" value="1064" />
+          <entry key="txt" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="922" />
+          <entry key="PLAIN_TEXT" value="162" />
+          <entry key="Python" value="1064" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -71,38 +59,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tf_exec_identifySearchButton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest/runDocker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="-525">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unittest/scrapeImages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unittest/testany.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="339">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -237,27 +207,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="runDocker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="seleniumMachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runDocker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="scrapeImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="seleniumMachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,6 +220,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/scrapeImages.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testany" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="seleniumMachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/testany.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,18 +272,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.ImageScraping_SearchButton" />
-      <item itemvalue="Python.runDocker" />
       <item itemvalue="Python.runDocker (1)" />
       <item itemvalue="Python.scrapeImages" />
       <item itemvalue="Python.tf_exec_identifySearchButton" />
+      <item itemvalue="Python.testany" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.tf_exec_identifySearchButton" />
+        <item itemvalue="Python.testany" />
         <item itemvalue="Python.runDocker (1)" />
         <item itemvalue="Python.scrapeImages" />
         <item itemvalue="Python.ImageScraping_SearchButton" />
-        <item itemvalue="Python.runDocker" />
       </list>
     </recent_temporary>
   </component>
@@ -328,18 +298,25 @@
       <option name="presentableId" value="Default" />
       <updated>1558941290212</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactored dir structure with unittest folder, updated return_pct.py to take label as input">
+      <created>1559093203184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093203184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17708333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17708333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,6 +332,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactored dir structure with unittest folder, updated return_pct.py to take label as input" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored dir structure with unittest folder, updated return_pct.py to take label as input" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tfImageClassifier/scripts/testImage.py" />
@@ -389,10 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_exec_identifySearchButton.py">
+    <entry file="file://$PROJECT_DIR$/unittest/testany.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -406,17 +387,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/scrapeImages.py">
+    <entry file="file://$PROJECT_DIR$/tf_exec_identifySearchButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-525">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/testany.py">
+    <entry file="file://$PROJECT_DIR$/unittest/scrapeImages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="339">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
