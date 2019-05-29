@@ -83,6 +83,7 @@ if __name__ == "__main__":
   input_std = 255
   input_layer = "input"
   output_layer = "InceptionV3/Predictions/Reshape_1"
+  lookfor="else"
 
   parser = argparse.ArgumentParser()
   parser.add_argument("--image", help="image to be processed")
@@ -94,6 +95,7 @@ if __name__ == "__main__":
   parser.add_argument("--input_std", type=int, help="input std")
   parser.add_argument("--input_layer", help="name of input layer")
   parser.add_argument("--output_layer", help="name of output layer")
+  parser.add_argument("--lookfor", help="label name to return pct")
   args = parser.parse_args()
 
   if args.graph:
@@ -114,6 +116,8 @@ if __name__ == "__main__":
     input_layer = args.input_layer
   if args.output_layer:
     output_layer = args.output_layer
+  if args.lookfor:
+    lookfor = args.lookfor
 
   graph = load_graph(model_file)
   t = read_tensor_from_image_file(
@@ -138,5 +142,5 @@ if __name__ == "__main__":
   labels = load_labels(label_file)
   for i in top_k:
     # print(labels[i], results[i])
-    if labels[i] == 'magnifyingglass':
+    if labels[i] == lookfor:
       print(results[i])

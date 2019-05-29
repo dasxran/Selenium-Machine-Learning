@@ -39,7 +39,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/dasxran/seleniumMachineLearning)
 
-Train a Tensorflow model [based on Inception V3](https://cloud.google.com/tpu/docs/tutorials/inception) with custom set of images and apply the model to identify objects in a webpage wiht the help of selenium.
+Train a Tensorflow model [based on Inception V3](https://cloud.google.com/tpu/docs/tutorials/inception) with custom set of images and apply the model to identify objects in a webpage with the help of selenium.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
