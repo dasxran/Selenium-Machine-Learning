@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dasxran/seleniumMachineLearning">
-    <img src="logo.png" alt="Logo" width="280" height="80">
+    <img src="images/logo.png" alt="Logo" width="280" height="80">
   </a>
 </p>
 
@@ -41,7 +41,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dasxran/seleniumMachineLearning">
-    <img src="screenshot.png" width="800" height="440">
+    <img src="images/screenshot.png" width="800" height="440">
   </a>
 </p>
 <br />
