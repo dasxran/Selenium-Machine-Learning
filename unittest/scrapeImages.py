@@ -1,17 +1,13 @@
 from os import path, curdir
 from time import sleep
 from PIL import Image
-from typing import List
 from selenium import webdriver
-from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.webdriver.remote.webelement import WebElement
 
-ROOT_DIR: str = path.dirname(path.abspath(curdir))
+ROOT_DIR = path.dirname(path.abspath(curdir))
 
 
 def scrapeImages(weblink):
 
-    driver: WebDriver
     desiredCap = {
         "browserName": "chrome"
     }
@@ -27,10 +23,9 @@ def scrapeImages(weblink):
         sleep(2)
         driver.save_screenshot(ROOT_DIR + '/imageScrapingData/fullscreen.png')  # take full screen screenshot
 
-        elements: List[WebElement] = driver.find_elements_by_xpath("//button | //input")  # get all button or input tags
+        elements = driver.find_elements_by_xpath("//button | //input")  # get all button or input tags
 
-        intCounter: int = 0
-        element: WebElement
+        intCounter = 0
 
         result = []
         for element in elements:  # loop for each element
@@ -45,7 +40,7 @@ def scrapeImages(weblink):
                 im = Image.open(ROOT_DIR + '/imageScrapingData/fullscreen.png')
                 im = im.crop((int(x), int(y), int(width), int(height)))
 
-                elementImagePath: str = '{0}/imageScrapingData/image{1}.png'.format(ROOT_DIR, str(intCounter))
+                elementImagePath = '{0}/imageScrapingData/image{1}.png'.format(ROOT_DIR, str(intCounter))
                 im.save(elementImagePath)
 
                 result.append(

@@ -41,7 +41,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dasxran/seleniumMachineLearning">
-    <img src="screenshot.PNG" width="800" height="440">
+    <img src="screenshot.png" width="800" height="440">
   </a>
 </p>
 <br />
@@ -61,8 +61,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -79,7 +78,7 @@ git clone https://github.com/dasxran/seleniumMachineLearning.git
 ```
 2. Pull [Tensorflow image](https://hub.docker.com/r/dasxran/tensorflow) from Docker hub
 ```sh
-docker pull dasxran/tensorflow
+docker pull dasxran/tensorflow:trainimages
 ```
 
 
@@ -123,6 +122,7 @@ Project Link: [https://github.com/dasxran/seleniumMachineLearning](https://githu
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Medium blog on TensorFlow](https://medium.com/@teavanist/image-classification-using-tensorflow-on-docker-windows-bd7824b05fee)
+* [TensorFlow Image Classifier Re-Training](https://www.tensorflow.org/hub/tutorials/image_retraining)
 
 
 
